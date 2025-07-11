@@ -1,0 +1,42 @@
+
+
+1
+00:00:00,000 --> 00:00:15,000
+Hello! My name is Rogério Fernando Machado, and I’m from Sapucaia do Sul , Brazil. I’m 53 years old, and I’m currently studying Systems Development. In my free time, I enjoy coding, reading tech blogs, playing chess, and working on DIY electronics.
+
+2
+00:00:16,000 --> 00:00:30,000
+I chose Information Technology because I’ve always been passionate about technology and solving problems. For me, IT is a field where I can be creative, build useful tools, and learn something new every day.
+
+3
+00:00:31,000 --> 00:00:42,000
+I work with different programming languages like JavaScript, TypeScript, Java, Python, HTML and CSS, and also COBOL for legacy systems.
+
+4
+00:00:43,000 --> 00:00:55,000
+Some tools I often use are VS Code, Eclipse, NetBeans, Git, GitHub, MySQL, SQLite, and I also have basic knowledge of React and Figma.
+
+5
+00:00:56,000 --> 00:01:03,000
+I also value my soft skills, such as teamwork, communication, problem-solving, and time management.
+
+6
+00:01:04,000 --> 00:01:20,000
+One of my favorite projects is called Ferragem na Mão, which means 'Hardware in Hand' in Portuguese. It’s a web system that helps small hardware stores manage their inventory and sales digitally.
+
+7
+00:01:21,000 --> 00:01:30,000
+I built it using HTML, CSS, JavaScript, and LocalStorage. It’s responsive and includes features like dark mode and product registration.
+
+8
+00:01:31,000 --> 00:01:45,000
+In the future, I want to work as a Front-End or Full-Stack Developer. I admire companies like Google and Nubank, and startups that focus on education and sustainability.
+
+9
+00:01:46,000 --> 00:01:56,000
+My learning goals include improving my English, learning React and Angular deeply, and getting certified in cloud technologies like AWS or Azure.
+
+10
+00:01:57,000 --> 00:02:05,000
+Thank you for watching my video! If you’d like to know more about me or my projects, feel free to get in touch. Bye!
+
