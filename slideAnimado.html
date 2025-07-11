@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Presentation</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #121212;
+      color: white;
+      overflow: hidden;
+    }
+    .slide {
+      display: none;
+      padding: 60px;
+      height: 100vh;
+      box-sizing: border-box;
+      animation: fade 1s ease-in-out;
+    }
+    .slide.active {
+      display: block;
+    }
+    h1, h2 {
+      color: #00bfff;
+    }
+    p, ul, li {
+      font-size: 1.4em;
+    }
+    ul {
+      margin-top: 10px;
+    }
+    @keyframes fade {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <audio id="narration" src="rogerio_portfolio_narration.mp3" autoplay></audio>
+
+  <div class="slide active">
+    <h1>Hello! I'm Rogério Fernando Machado</h1>
+    <p>I'm 53, from Sapucaia do Sul, Brazil. I enjoy coding, reading tech blogs, playing chess, and working on DIY electronics.</p>
+  </div>
+
+  <div class="slide">
+    <h2>Why I Chose IT</h2>
+    <p>I'm passionate about technology and problem-solving. IT allows me to be creative and learn every day.</p>
+  </div>
+
+  <div class="slide">
+    <h2>My Programming Skills</h2>
+    <ul>
+      <li>JavaScript, TypeScript, Java</li>
+      <li>Python, HTML & CSS</li>
+      <li>COBOL (legacy systems)</li>
+    </ul>
+  </div>
+
+  <div class="slide">
+    <h2>Tools & Soft Skills</h2>
+    <ul>
+      <li>VS Code, Eclipse, NetBeans, Git, GitHub</li>
+      <li>MySQL, SQLite, React (basic), Figma</li>
+      <li>Communication, teamwork, problem-solving</li>
+    </ul>
+  </div>
+
+  <div class="slide">
+    <h2>My Project: Ferragem na Mão</h2>
+    <p>A web app to manage product inventory for small hardware stores using HTML, CSS, JavaScript, and LocalStorage.</p>
+  </div>
+
+  <div class="slide">
+    <h2>Career Goals</h2>
+    <ul>
+      <li>Front-End or Full-Stack Developer</li>
+      <li>Work at Google, Nubank, or EdTech startups</li>
+      <li>Improve English, learn Angular, get cloud certified</li>
+    </ul>
+  </div>
+
+  <div class="slide">
+    <h2>Thank You!</h2>
+    <p>Thanks for watching my video. Feel free to contact me to know more about my work!</p>
+  </div>
+
+  <script>
+    const slides = document.querySelectorAll('.slide');
+    let current = 0;
+    setInterval(() => {
+      slides[current].classList.remove('active');
+      current = (current + 1) % slides.length;
+      slides[current].classList.add('active');
+    }, 10000); // muda a cada 10 segundos
+  </script>
+</body>
+</html>
